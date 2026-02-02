@@ -57,6 +57,19 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        chart: {
+          primary: "hsl(var(--chart-primary))",
+          "primary-light": "hsl(var(--chart-primary-light))",
+        },
+        stat: {
+          users: "hsl(var(--stat-users))",
+          vehicles: "hsl(var(--stat-vehicles))",
+          bookings: "hsl(var(--stat-bookings))",
+          revenue: "hsl(var(--stat-revenue))",
+        },
+        success: "hsl(var(--success))",
+        warning: "hsl(var(--warning))",
+        info: "hsl(var(--info))",
       },
       borderRadius: {
         lg: "var(--radius)",
