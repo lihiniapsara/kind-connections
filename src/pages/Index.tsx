@@ -10,8 +10,8 @@ import { RecentTransactions } from "@/components/dashboard/RecentTransactions";
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-background p-6">
-      <div className="mx-auto max-w-7xl space-y-6">
+    <div className="min-h-screen w-full bg-background p-4 lg:p-6">
+      <div className="w-full space-y-6">
         {/* Stats Row */}
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
           <StatCard
